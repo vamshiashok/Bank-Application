@@ -35,7 +35,7 @@ After successful login, users can access the following features:
    * Create a MySQL database name ``` bankapplicationdb ```
    * Import the provided SQL script to set up the tables
 3. Project Setup
-   * Clone the repository: ``` git clone <> ```
+   * Clone the repository: ``` git clone <https://github.com/vamshiashok/Bank-Application.git> ```
    * Import the project into your favorite IDE(Eg: Eclipse)
    * Configure the project with the Tomcat server.
 4. Run the Application
