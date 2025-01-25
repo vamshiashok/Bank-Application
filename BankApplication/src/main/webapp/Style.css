@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* Importing Fonts
+*/
+@import
+	url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap')
+	;
+
+body {
+	background-image:
+		url('https://images.moneycontrol.com/static-mcnews/2021/06/Rupee_Shutterstock-770x433.jpg?impolicy=website&width=770&height=431');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	margin: 0;
+	user-select: none;
+	/* height: 100vh; */
+}
+
+.wel_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.home_div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 650px;
+	height: 350px;
+	background-image:
+		url('https://t3.ftcdn.net/jpg/05/20/22/30/360_F_520223022_wVlUTGDuIn6iEIqppak4LosqDsjyaheU.jpg');
+	border: 2px solid black;
+	/* padding: 10px; */
+	box-shadow: 0 4px 28px black;
+	font-size: 22px;
+	border-radius: 20px;
+}
+
+.home_div a:hover {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	border: 2px solid green;
+	box-shadow: 0 4px 18px yellow;
+}
+
+.home_div h3 {
+	font-family: "Shadows Into Light", serif;
+	font-weight: 600;
+	color: #2b2096;
+	font-size: 35px;
+	text-align: center;
+	width: 100%;
+	margin-top: -70px;
+}
+
+.home_div a {
+	text-decoration: none;
+	cursor: pointer;
+	color: yellow;
+	border: 2px solid yellow;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: blue;
+	width: 120px;
+	text-align: center;
+	font-family: "Shadows Into Light", serif;
+	margin-left: 25px;
+	margin-bottom: 50px;
+}
+
+#login_a {
+	margin-bottom: 10px;
+}
+
+.reg_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-align: center;
+}
+
+.reg_div {
+	border: 2px solid white;
+	height: auto;
+	width: 550px;
+	padding: 20px;
+	box-shadow: 0 4px 28px white;
+	border-radius: 10px;
+}
+
+.reg_div form label {
+	width: 150px;
+}
+
+.reg_div form input {
+	width: 200px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+}
+
+#submit_btn {
+	width: 100px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#submit_btn:hover {
+	background-color: black;
+	color: white;
+}
+
+.suc_div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 400px;
+	background-color: #55bdd6;
+	border: 2px solid black;
+	padding: 20px;
+	box-shadow: 0 4px 28px black;
+	font-size: 22px;
+	border-radius: 20px;
+	color: black;
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+.reg_btn {
+	text-decoration: none;
+	cursor: pointer;
+	color: yellow;
+	border: 2px solid yellow;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: blue;
+	width: 120px;
+	text-align: center;
+}
+
+.reg_btn:hover {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border: 2px solid green;
+	box-shadow: 0 4px 18px #55bdd6;
+}
+
+
+
+
